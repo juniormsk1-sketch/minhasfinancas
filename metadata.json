@@ -1,0 +1,8 @@
+{
+  "name": "Minha Finance",
+  "description": "App financeiro inteligente para casais compartilharem o controle da casa em tempo real com orçamentos, faturas e leitura de comprovantes por IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
