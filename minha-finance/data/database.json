@@ -1,0 +1,428 @@
+{
+  "wallets": [
+    {
+      "id": "wal_casa_01",
+      "name": "Casa do Junior & Shtefany 💜",
+      "members": [
+        {
+          "user_id": "usr_junior",
+          "name": "Junior",
+          "email": "junior@casal.com",
+          "avatar_url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+          "color": "#3b82f6"
+        },
+        {
+          "user_id": "usr_shtefany",
+          "name": "Shtefany",
+          "email": "shtefany@casal.com",
+          "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+          "color": "#ec4899"
+        }
+      ],
+      "member_ids": [
+        "usr_junior",
+        "usr_shtefany"
+      ],
+      "invite_code": "AMOR26",
+      "created_date": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_salario",
+      "name": "Salário & Renda",
+      "type": "income",
+      "nature": "fixed",
+      "icon": "Briefcase",
+      "color": "#10B981",
+      "is_default": true
+    },
+    {
+      "id": "cat_freelance",
+      "name": "Freelance & Extras",
+      "type": "income",
+      "nature": "variable",
+      "icon": "Laptop",
+      "color": "#3B82F6",
+      "is_default": true
+    },
+    {
+      "id": "cat_rendimentos",
+      "name": "Rendimentos & Dividendos",
+      "type": "income",
+      "nature": "variable",
+      "icon": "TrendingUp",
+      "color": "#8B5CF6",
+      "is_default": true
+    },
+    {
+      "id": "cat_reembolso",
+      "name": "Reembolsos & Devoluções",
+      "type": "income",
+      "nature": "variable",
+      "icon": "RotateCcw",
+      "color": "#06B6D4",
+      "is_default": true
+    },
+    {
+      "id": "cat_outras_entradas",
+      "name": "Outras Entradas",
+      "type": "income",
+      "nature": "variable",
+      "icon": "PlusCircle",
+      "color": "#14B8A6",
+      "is_default": true
+    },
+    {
+      "id": "cat_aluguel",
+      "name": "Aluguel / Financiamento",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Home",
+      "color": "#6366F1",
+      "is_default": true
+    },
+    {
+      "id": "cat_condominio",
+      "name": "Condomínio & IPTU",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Building",
+      "color": "#4F46E5",
+      "is_default": true
+    },
+    {
+      "id": "cat_energia",
+      "name": "Energia Elétrica",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Zap",
+      "color": "#F59E0B",
+      "is_default": true
+    },
+    {
+      "id": "cat_agua_gas",
+      "name": "Água & Gás",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Droplets",
+      "color": "#0EA5E9",
+      "is_default": true
+    },
+    {
+      "id": "cat_internet",
+      "name": "Internet & Telefonia",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Wifi",
+      "color": "#8B5CF6",
+      "is_default": true
+    },
+    {
+      "id": "cat_streaming",
+      "name": "Streaming & Assinaturas",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Tv",
+      "color": "#EC4899",
+      "is_default": true
+    },
+    {
+      "id": "cat_seguro",
+      "name": "Seguros & Plano de Saúde",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "Shield",
+      "color": "#10B981",
+      "is_default": true
+    },
+    {
+      "id": "cat_educacao",
+      "name": "Educação & Cursos",
+      "type": "expense",
+      "nature": "fixed",
+      "icon": "GraduationCap",
+      "color": "#3B82F6",
+      "is_default": true
+    },
+    {
+      "id": "cat_mercado",
+      "name": "Supermercado & Feira",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "ShoppingCart",
+      "color": "#EF4444",
+      "is_default": true
+    },
+    {
+      "id": "cat_restaurante",
+      "name": "Restaurante & Delivery",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Utensils",
+      "color": "#F97316",
+      "is_default": true
+    },
+    {
+      "id": "cat_transporte",
+      "name": "Uber & Transporte Público",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Bus",
+      "color": "#64748B",
+      "is_default": true
+    },
+    {
+      "id": "cat_combustivel",
+      "name": "Combustível & Manutenção",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Fuel",
+      "color": "#EAB308",
+      "is_default": true
+    },
+    {
+      "id": "cat_farmacia",
+      "name": "Farmácia & Cuidados",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "HeartPulse",
+      "color": "#EC4899",
+      "is_default": true
+    },
+    {
+      "id": "cat_lazer",
+      "name": "Lazer & Passeios",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Smile",
+      "color": "#84CC16",
+      "is_default": true
+    },
+    {
+      "id": "cat_vestuario",
+      "name": "Roupas & Vestuário",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "ShoppingBag",
+      "color": "#A855F7",
+      "is_default": true
+    },
+    {
+      "id": "cat_pets",
+      "name": "Pet & Veterinário",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "PawPrint",
+      "color": "#D97706",
+      "is_default": true
+    },
+    {
+      "id": "cat_casa_decor",
+      "name": "Casa & Decoração",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Armchair",
+      "color": "#0284C7",
+      "is_default": true
+    },
+    {
+      "id": "cat_presentes",
+      "name": "Presentes & Comemorações",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Gift",
+      "color": "#E11D48",
+      "is_default": true
+    },
+    {
+      "id": "cat_viagem",
+      "name": "Viagens & Férias",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Plane",
+      "color": "#2563EB",
+      "is_default": true
+    },
+    {
+      "id": "cat_eletronicos",
+      "name": "Eletrônicos & Tecnologia",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Smartphone",
+      "color": "#475569",
+      "is_default": true
+    },
+    {
+      "id": "cat_impostos",
+      "name": "Taxas & Tarifas Bancárias",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Receipt",
+      "color": "#78716C",
+      "is_default": true
+    },
+    {
+      "id": "cat_beleza",
+      "name": "Barbearia & Salão",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "Scissors",
+      "color": "#F43F5E",
+      "is_default": true
+    },
+    {
+      "id": "cat_doacoes",
+      "name": "Doações & Ajuda Familiar",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "HeartHandshake",
+      "color": "#10B981",
+      "is_default": true
+    },
+    {
+      "id": "cat_outras_despesas",
+      "name": "Outras Despesas",
+      "type": "expense",
+      "nature": "variable",
+      "icon": "HelpCircle",
+      "color": "#94A3B8",
+      "is_default": true
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc_conjunta",
+      "wallet_id": "wal_casa_01",
+      "name": "Conta Conjunta",
+      "type": "checking",
+      "balance": 0,
+      "color": "#820AD1",
+      "icon": "CreditCard",
+      "is_reserve": false,
+      "created_date": "2026-01-01T00:00:00Z",
+      "created_by_id": "usr_junior"
+    },
+    {
+      "id": "acc_diaadia",
+      "wallet_id": "wal_casa_01",
+      "name": "Conta Dia a Dia",
+      "type": "checking",
+      "balance": 0,
+      "color": "#EC7000",
+      "icon": "Wallet",
+      "is_reserve": false,
+      "created_date": "2026-01-01T00:00:00Z",
+      "created_by_id": "usr_shtefany"
+    },
+    {
+      "id": "acc_reserva_emergencia",
+      "wallet_id": "wal_casa_01",
+      "name": "Reserva de Emergência 🛡️",
+      "type": "reserve",
+      "balance": 0,
+      "color": "#10B981",
+      "icon": "ShieldCheck",
+      "is_reserve": true,
+      "goal_target": 30000,
+      "created_date": "2026-01-01T00:00:00Z",
+      "created_by_id": "usr_junior"
+    },
+    {
+      "id": "acc_reserva_viagem",
+      "wallet_id": "wal_casa_01",
+      "name": "Férias & Viagens ✈️",
+      "type": "savings",
+      "balance": 0,
+      "color": "#3B82F6",
+      "icon": "Plane",
+      "is_reserve": true,
+      "goal_target": 15000,
+      "created_date": "2026-01-01T00:00:00Z",
+      "created_by_id": "usr_shtefany"
+    }
+  ],
+  "credit_cards": [
+    {
+      "id": "card_principal",
+      "wallet_id": "wal_casa_01",
+      "name": "Cartão de Crédito Black",
+      "bank": "Nubank",
+      "brand": "Mastercard Black",
+      "limit": 10000,
+      "closing_day": 22,
+      "due_day": 28,
+      "color": "#4B0082",
+      "created_date": "2026-01-01T00:00:00Z",
+      "created_by_id": "usr_junior"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_curr",
+      "wallet_id": "wal_casa_01",
+      "card_id": "card_principal",
+      "month": "2026-09",
+      "due_date": "2026-09-28",
+      "status": "paid",
+      "paid_amount": 0
+    }
+  ],
+  "transactions": [],
+  "card_purchases": [],
+  "bills": [],
+  "goals": [
+    {
+      "id": "goal_01",
+      "wallet_id": "wal_casa_01",
+      "name": "Reserva de Emergência (6 meses)",
+      "target_amount": 30000,
+      "current_amount": 0,
+      "target_date": "2026-12-31",
+      "icon": "Shield",
+      "privacy": "shared",
+      "created_date": "2026-01-10T00:00:00Z",
+      "created_by_id": "usr_junior"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bud_mercado",
+      "wallet_id": "wal_casa_01",
+      "category_id": "cat_mercado",
+      "month": "2026-09",
+      "limit_amount": 2500,
+      "created_date": "2026-09-01T00:00:00Z",
+      "created_by_id": "usr_junior"
+    }
+  ],
+  "transfers": [],
+  "notifications": [
+    {
+      "id": "notif_welcome",
+      "wallet_id": "wal_casa_01",
+      "user_id": "usr_junior",
+      "type": "movement_new",
+      "title": "Bem-vindos, Junior & Shtefany! 💜",
+      "body": "O aplicativo está com os números zerados e pronto para gerenciar as finanças da sua casa.",
+      "ref_id": "",
+      "read": false,
+      "created_date": "2026-09-25T12:00:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_welcome",
+      "wallet_id": "wal_casa_01",
+      "user_id": "usr_junior",
+      "user_name": "Junior",
+      "user_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "action": "create",
+      "entity_type": "account",
+      "description": "Iniciou as finanças da casa com Shtefany",
+      "details": "Números zerados para novo ciclo",
+      "amount": 0,
+      "created_date": "2026-09-25T12:00:00Z"
+    }
+  ]
+}
